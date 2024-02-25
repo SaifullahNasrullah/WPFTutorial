@@ -1,0 +1,1 @@
+﻿The purpose of GridSplitter is to be able to split the Grid at any row/column which is required.

@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfTutorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Name="btnSet" Content="Set" Width="100" Height="40"
+                Click="btnSet_Click"/>
+        <TextBlock Grid.Row="2" Name="tbResult" FontSize="16" VerticalAlignment="Center"
+                   HorizontalAlignment="Center"/>
+        
+        <!--<Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Name="txtInput" VerticalAlignment="center" Width="250" Height="40"
+                 FontSize="16" Text="{Binding BoundText, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}"/>
+        <Button Grid.Row="1" Name="btnSet" Content="Set" Width="100" Height="40"
+                Click="btnSet_Click"/>
+        <TextBlock Grid.Row="2" Name="tbResult" FontSize="16" Text="{Binding BoundText}"
+                   VerticalAlignment="Center" HorizontalAlignment="Center"/>-->
+        
+        <!--<Grid.RowDefinitions> 
+            <RowDefinition/> 
+            <RowDefinition/> 
+            <RowDefinition/> 
+            <RowDefinition/> 
+            <RowDefinition/> 
+            <RowDefinition/> 
+        </Grid.RowDefinitions>
+        <userControls:ClearableTextBox Grid.Row="1" Width="250" Height="40" Placehoder="First Name"/>
+        <userControls:ClearableTextBox Grid.Row="2" Width="250" Height="40" Placehoder="Last Name"/>
+        <userControls:ClearableTextBox Grid.Row="3" Width="250" Height="40" Placehoder="Email"/>
+        <userControls:ClearableTextBox Grid.Row="4" Width="250" Height="40" Placehoder="Phone"/>-->
+        
+        <!--<userControls:MenuBar/>-->
+    </Grid>
+</Window>

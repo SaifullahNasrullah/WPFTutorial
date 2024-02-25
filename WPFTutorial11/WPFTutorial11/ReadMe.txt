@@ -1,0 +1,2 @@
+﻿In addition to Custom Styles the below link is a microsoft Control Styles and Templates.
+https://learn.microsoft.com/en-us/dotnet/desktop/wpf/controls/control-styles-and-templates?view=netframeworkdesktop-4.8
